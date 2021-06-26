@@ -1,0 +1,137 @@
+
+Single Line Comment: ** Declarations & Assignment
+
+Successful Integer Declaration.
+Successful Real Number Declaration.
+Successful Text Declaration.
+
+Text Variable, CSE_3207 = 'Applied Statistics'
+
+Integer Variable, a2 = -6
+
+Integer Variable, a2 = 4
+
+Text Variable, CSE_3201 = 'Operating System'
+
+Multi Line Comment: * Array Declarations & Assignment
+Here Declaration and Assingment cannot be done at the same time *
+
+Successful Integer Array Declaration.
+Successful Integer Array Declaration.
+Successful Real Array Declaration.
+
+136.000000
+142.000000
+
+2.000000
+
+Single Line Comment: ** Array Assignment using From-To Loop
+
+Successful Real Array Declaration.
+iteration 1 : abcd[0] = 6.290000
+iteration 2 : abcd[1] = 6.290000
+iteration 3 : abcd[2] = 6.290000
+iteration 4 : abcd[3] = 6.290000
+
+Single Line Comment: ** Mathematical Expressions
+
+Integer Variable, b1 = 15
+
+-18.000000
+
+64.000000
+
+405.789000
+
+120.000000
+Factrorial is too Large for Data Type.	0.000000
+
+Single Line Comment: ** Increment Expressions
+
+Integer Variable, a1 = 5
+Integer Variable, a2 = 5
+
+Integer Variable, b1 = 4
+Integer Variable, b2 = 5
+
+Single Line Comment: ** Decrement Expressions
+
+Integer Variable, a1 = 4
+Integer Variable, a2 = 4
+
+Integer Variable, c1 = 5
+Integer Variable, c2 = 4
+
+Single Line Comment: ** Relational Expressions
+
+0.000000
+
+1.000000
+
+1.000000
+
+0.000000
+
+Single Line Comment: ** Logical Expressions
+
+1.000000
+
+0.000000
+
+1.000000
+
+Single Line Comment: ** Conditions : If Statement
+
+Inside If Block: 4
+
+Single Line Comment: ** Conditions : If-Else Statement
+
+Inside Else Block: 'no'
+
+Single Line Comment: ** Conditions : If-Or If Statement
+
+Inside Or-If Block No.3 : 4.000000
+
+Single Line Comment: ** Conditions : If-Or If-Else Statement
+
+Inside Else Block : 6.000000
+
+Single Line Comment: ** Conditions : Switch Statement
+
+Inside Case No.2 : '3'
+Inside Case No.4 : 'also 3'
+
+Single Line Comment: ** Conditions : Switch with Break Statement
+
+Inside Case No.2 : '5'
+
+Single Line Comment: ** Conditions : Switch with Default Statement
+
+Successful Integer Declaration.
+Inside Default Case : 'default statement'
+
+Single Line Comment: ** From To Loop
+
+ct_marks[0] = 167.750000
+ct_marks[1] = 142.000000
+ct_marks[2] = 188.500000
+ct_marks[3] = 160.750000
+ct_marks[4] = 151.000000
+ct_marks[5] = 133.250000
+ct_marks[6] = 182.000000
+
+Single Line Comment: ** From To Skip Loop
+
+ct_marks[0] = 167.750000
+ct_marks[2] = 188.500000
+ct_marks[4] = 151.000000
+ct_marks[6] = 182.000000
+
+Single Line Comment: ** While Loop
+
+Inside While Loop iteration 1 :'looping'
+Inside While Loop iteration 2 :'looping'
+Inside While Loop iteration 3 :'looping'
+Inside While Loop iteration 4 :'looping'
+
+Compiled Successfully.

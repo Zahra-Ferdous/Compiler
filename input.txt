@@ -1,0 +1,256 @@
+#start#
+
+** Declarations & Assignment
+
+integer a1 <- 4 , a2 <- -6 , b1 , b2 , c1 , c2 ;
+real Bangla_1, Bangla_2 , English_1 <- 74.5 , English_2 <- 82 ;
+text CSE_3201 , CSE_3211 <- 'Compiler Design' , CSE_3207 <- 'Applied Statistics' ;
+
+/nl/ 
+
+print(CSE_3207) ;
+
+/nl/
+print(a2) ;
+
+/nl/ 
+a2 <- a1 ; 
+print(a2) ;
+
+/nl/ 
+CSE_3201 <- 'Operating System' ;
+print(CSE_3201);
+
+
+* Array Declarations & Assignment
+Here Declaration and Assingment cannot be done at the same time *
+
+arr integer roll[7] ;
+arr integer place[7] ;
+arr real ct_marks[7] ;
+
+/nl/
+
+roll[0] <- 1 , roll[1] <- 2 , roll[2] <- 3 , roll[3] <- 4 , roll[4] <- 5 , roll[5] <- 6 , roll[6] <- 7 ;
+
+place[0] <- 3 , place[1] <- 6 , place[2] <- 1 , place[3] <- 4 , place[4] <- 5 , place[5] <- 7 , place[6] <- 2 ;
+
+ct_marks[0] <- 167.75 , ct_marks[1] <- 136 , ct_marks[2] <- 188.5 , ct_marks[3] <- 160.75 , ct_marks[4] <- 151 , ct_marks[5] <- 133.25 , ct_marks[6] <- 182; 
+
+
+print(ct_marks[1]) ;
+ct_marks[1] <- 142;
+print(ct_marks[1]) ;
+
+/nl/
+
+print(place[6]);
+
+
+** Array Assignment using From-To Loop
+
+arr real abcd[4];
+
+from 0 to 3:
+{
+	abcd[] <- 31.45 <div> 5 ;
+};
+
+
+** Mathematical Expressions
+
+b1 <- 4 <add> 2 <mul> 3 <add> 10 <div> 2;
+print(b1) ; 
+/nl/
+
+print( 5 <mod> 3 <sub> 20 ) ; 
+/nl/
+
+print( 2 <power> 3 <power> 2 ) ;
+/nl/
+
+print( <abs> -405.789 ) ;
+/nl/
+
+print( <fact> (2 <add> 3) ) ;
+print( <fact> 21 ) ;
+
+
+** Increment Expressions
+
+b1 <- a1 <inc> ;
+b2 <- <inc> a2 ;
+
+print(a1);
+print(a2);
+/nl/
+print(b1);
+print(b2);
+
+** Decrement Expressions
+
+c1 <- a1 <dec> ;
+c2 <- <dec> a2 ;
+
+print(a1);
+print(a2);
+/nl/
+print(c1);
+print(c2);
+
+** Relational Expressions
+
+print( 1 <grt> 3 ) ;
+/nl/
+print( 1 <les_equ> 3 ) ;
+/nl/
+print( 67 <equ> 67 ) ;
+/nl/
+print( 67 <not_equ> 67 ) ;
+
+** Logical Expressions
+
+print( 3 <or> (1 <grt> 3) ) ;
+/nl/
+print( (1 <les> 3) <and> 0 ) ;
+/nl/
+print( <not> 0 ) ;
+
+
+** Conditions : If Statement
+
+if a1 : 
+{ 
+	print(a1); 
+} ;
+
+** Conditions : If-Else Statement
+
+if <not>a1 : 
+{ 
+	print('yes'); 
+}
+else:
+{
+	print('no');
+} ;
+
+** Conditions : If-Or If Statement
+
+if 3<grt>7 : {
+	print( 1 );
+}
+or if 3<equ>7:{
+	print(2);
+}
+or if 0 :{
+	print(3);
+}
+or if 3<les>7:{
+	print(4);
+} ;
+
+** Conditions : If-Or If-Else Statement
+
+if 3<grt>7 : {
+	print( 4 );
+}
+or if 3<equ>7:{
+	print(5);
+}
+else :{
+	print(6);
+} ;
+
+
+** Conditions : Switch Statement
+
+switch (3) :
+{
+	case 2 : {
+		print('2');
+	} 
+
+	case 3 : {
+		print('3');
+	} 
+
+	case 5 : {
+		print('5');
+	} 
+
+	case 3 : {
+		print('also 3');
+	} 
+};
+
+** Conditions : Switch with Break Statement
+
+switch (5) :
+{
+	case 2 : {
+		print('2');
+		break;
+	} 
+
+	case 5 : {
+		print('5');
+		break;
+	} 
+
+	case 5 : {
+		print('also 5');
+		break;
+	} 
+};
+
+** Conditions : Switch with Default Statement
+
+integer a <- 7 ;
+switch (a) :
+{
+	case 2 : {
+		print(2);
+	} 
+
+	case 3 : {
+		print(3);
+	} 
+
+	case 5 : {
+		print(4);
+	} 
+
+	case 5 : {
+		print(5);
+	}
+	def : {
+		print('default statement');
+	} 
+};
+
+
+** From To Loop
+
+from 0 to 6:
+{
+	print(ct_marks[]);
+};
+
+** From To Skip Loop
+
+from 0 to 6 skip 1:
+{
+	print(ct_marks[]);
+};
+
+** While Loop
+
+while a1 do :
+{
+	print( 'looping' ) ;
+	a1 <dec> ;
+};
+
+
+#end#
